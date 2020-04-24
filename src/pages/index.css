@@ -1,0 +1,72 @@
+.body{
+  background: #E5E5E5;
+}
+.dropdown {
+  display: block;
+  width: 100%;
+  background: rgba(33, 64, 154, 0.05);
+  border: 1px solid #21409a;
+  border-radius: 8px;
+  color: #5C5C5C;
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.dropdown option{
+  width: 400px;
+}
+.paper{
+    padding: 4%;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.15), -4px -4px 3px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+}
+
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.form-control {
+    padding-left: 2rem;
+    width: 100%;
+    background: #FFFFFF;
+box-shadow: 0px 0.760598px 4.56359px rgba(32, 33, 36, 0.28);
+border-radius: 8px;
+border: none;
+padding: 10px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.bottomNav{
+   position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.mobileView {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.mobileView {
+  display: block;
+}
+.dekstopView{
+  display: none;
+}
+}

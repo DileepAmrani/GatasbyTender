@@ -1,0 +1,19 @@
+.bottomNav{
+   position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.mobileView {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.mobileView {
+  display: block;
+}
+.dekstopView{
+  display: none;
+}
+}
